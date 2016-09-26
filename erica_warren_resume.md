@@ -5,9 +5,7 @@
 * Brooklyn, New York 11216
 
 # Summary
-Looking to join a team providing business intelligence solutions from conception through deployment and beyond.
-
-Basically I love helping people use technology to make their work more efficient. Let's make computers do the things they are good at, so we can free up people to do the things *they* are good at. I have experience in all aspects of the process: discovery and gathering user requirements, development, documentation and training materials, live training sessions, ad-hoc support, responding to user feedback, etc.
+I love solving workflow and business intelligence problems, helping people work more efficiently and make better decisions.
 
 # Education
 ## M.S., Predictive Analytics • June 2016
