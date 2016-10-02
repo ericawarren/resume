@@ -1,4 +1,18 @@
-/* CSS resets */
+/* Install google fonts locally, then import */
+
+@font-face {
+	font-family: 'Roboto Slab';
+	src:
+    local('Roboto Slab');
+}
+@font-face {
+	font-family: 'Roboto';
+	src:
+    local('Roboto');
+}
+
+/*
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,16 +38,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+*/
 
+/* base */
 html, body {
-  font-family: "Franklin Gothic Book", "Arial", sans-serif;
-  font-size: 11pt;
+  font-family: 'Roboto', sans-serif;
+  font-size: 8pt;
   line-height: 125%;
 }
 
+/* headings */
 h1, h2, h3, h4, h5 {
-  font-family: "Franklin Gothic", "Arial", sans-serif;
-  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+	font-weight: bold;
   margin-top: 1.5em;
 }
 
@@ -48,7 +65,7 @@ h2 {
 
 h3 {
   font-size: 14pt;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 /* First H1 */
