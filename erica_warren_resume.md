@@ -1,8 +1,8 @@
 # Erica Warren
-  * erwarren@gmail.com
-  * 658 Prospect Place, Apt. 4
-  * Brooklyn, New York 11216
-  * 718-483-0900
+  1. erwarren@gmail.com
+  1. 658 Prospect Place, Apt. 4
+  1. Brooklyn, New York 11216
+  1. 718-483-0900
 
 ## Summary
 I love solving workflow and business intelligence problems, helping people work more efficiently and make better decisions.

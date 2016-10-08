@@ -1,8 +1,7 @@
-var headerText = document.querySelector('h1, h1 + ul');
-
-module.exports = function (x) {
-    return {
-        height: '1in',
-        contents: headerText
-    };
+module.exports = function () {
+  var headerText = document.querySelector('h1, h1 + ul');
+  return {
+    height: '1in',
+    contents: '<div id="pageHead">' + headerText + '</div>'
+  };
 };
