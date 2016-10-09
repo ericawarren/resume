@@ -1,27 +1,21 @@
-# Erica Warren
-  1. erwarren@gmail.com
-  1. 658 Prospect Place, Apt. 4
-  1. Brooklyn, New York 11216
-  1. 718-483-0900
-
-## Summary
+# Summary
 I love solving workflow and business intelligence problems, helping people work more efficiently and make better decisions.
 
-## Education
-### M.S., Predictive Analytics • June 2016
-#### Northwestern University, School of Professional Studies • Evanston, IL
+# Education
+## M.S., Predictive Analytics • June 2016
+### Northwestern University, School of Professional Studies • Evanston, IL
 Part statistics, part computer science, part MBA. My final team project, taken from team formation through final presentation in less than 10 weeks, is a model predicting water-access-point functionality in Tanzania, with a companion interactive dashboard (available here: https://mspawesome.github.io/index.html). I focused on the dashboard, and taught myself D3.js to build the interactive map at the top.
 
 GPA 4.0/4.0
 
-### Fundamentals of Copyediting • Spring 2007
-#### New York University, School of Continuing and Professional Studies • New York, NY
+## Fundamentals of Copyediting • Spring 2007
+### New York University, School of Continuing and Professional Studies • New York, NY
 
-### B.A., Sociology • May 2005
-#### Vassar College • Poughkeepsie, NY
+## B.A., Sociology • May 2005
+### Vassar College • Poughkeepsie, NY
 GPA 3.5/4.0 • graduated _cum laude_ • focus on media studies
 
-## Skills
+# Skills
 * Advanced VBA, particularly for Word 2007-2016 (main project code: https://github.com/macmillanpublishers/Word-template)
 * Git and Github (https://github.com/ericawarren)
 * Basic JavaScript, including D3.js (https://mspawesome.github.io/) and Reveal.js (https://ericawarren.github.io/)
@@ -34,9 +28,9 @@ GPA 3.5/4.0 • graduated _cum laude_ • focus on media studies
 * Expert is MS Word, including built-in and custom styles, track changes, forms, mail merge with conditional formatting fields
 * Advanced Excel (including pivot tables and pivot charts, `VLOOKUP`, nested `COUNTIF` and `SUMIF`)
 
-## Experience
-### Senior Content Workflow Specialist • June 2014 to Present
-#### Macmillan Publishers • New York, NY
+# Experience
+## Senior Content Workflow Specialist • June 2014 to Present
+### Macmillan Publishers • New York, NY
 Build and support custom digital tools and processes for our production workflow.
 * Lead developer for our suite of advanced custom Word macros, which have become an integral part of our digital workflow and are used both internally and by third-party vendors.
 * Created an additional suite of developer tools to make it easier to use Git for VBA projects.
@@ -46,8 +40,8 @@ Build and support custom digital tools and processes for our production workflow
 * Provide daily email and phone support for all of our tools for over 125 primary users, and ad-hoc support for the whole company.
 * Develop new workflow processes and best practices for various departments, notably around using custom MS Word styles for markup on manuscripts.
 
-### Production Editor • September 2011 to May 2014
-#### Hachette Book Group • New York, NY
+## Production Editor • September 2011 to May 2014
+### Hachette Book Group • New York, NY
 Handled managing-editorial duties (what in other contexts would be considered project management) from manuscript through final print and ebook files for roughly thirty original books per year for Grand Central Publishing. Most projects were under accelerated or crash schedules.
 * Worked with Production, Editorial, Digital Media, and Art departments to plan and execute book projects and to anticipate and resolve problems throughout production.
 * Prepared, monitored, and adjusted multiple concurrent schedules under changing conditions to ensure deadlines were met.
@@ -59,8 +53,8 @@ Handled managing-editorial duties (what in other contexts would be considered pr
 * Proactively streamlined annual freelancer contract renewal, doing in a few weeks what my manager estimated could have taken months.
 * Developed quantitative reports of workload metrics for head of department, including gathering and cleaning data from clunky internal publishing tracking system, then analyzing the data and creating visualizations that are easily understandable to both "word" and "number' people.
 
-### Production Editor • July 2006 to September 2011
-#### Palgrave Macmillan • New York, NY
+## Production Editor • July 2006 to September 2011
+### Palgrave Macmillan • New York, NY
 Managed production of roughly twenty original nonfiction titles per year from manuscript to bound book with minimal supervision, including two to three rush projects each season. Additional duties included:
 * Handled manufacturing and production responsibilities on all assigned titles: working directly with typesetters and compositors to create interior text designs, having books typeset; creating cost estimates at multiple stages of production and finalizing costs after project completion; cutting POs and sending final files to various printers for both interior text and jackets/covers; and checking and approving blues and proofs.
 * Managed all galley scheduling, cover copy editing, cover creation, and ordering processing. Reorganized procedures to make the whole process more efficient.
@@ -71,13 +65,13 @@ Managed production of roughly twenty original nonfiction titles per year from ma
 * Reorganized and implemented new procedures for creation of ebooks.
 * Created procedures for and managed implementation of reprint corrections for entire trade and academic program.
 
-## Volunteer
-### Board Member, Treasurer • 2012 to Present
-#### Friends of Shishur Sevay
+# Volunteer
+## Board Member, Treasurer • 2012 to Present
+### Friends of Shishur Sevay
 A 501(c)(3) nonprofit that advocates for the human rights of orphaned children in India and promotes awareness of the educational needs of children abandoned in poverty. Created and maintain organization website (http://www.friendsofshishursevay.org/); set up online donation and automated recording and processing for them; set up and maintain organization email accounts.
 
-## Additional Stuff
-### Quotes
+# Additional Stuff
+## Quotes
 "I express some desire ('If only there were some way of doing ____') and Erica asks some questions, refines the needs and goals, then goes about meeting the challenge. And it's all done quickly, efficiently, and pragmatically: real-world solutions to real-world problems."
 --from manager's 2013 performance review at HBG
 

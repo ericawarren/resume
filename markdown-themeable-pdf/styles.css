@@ -50,16 +50,17 @@ html, body {
 /* headings */
 h1, h2, h3, h4, h5 {
   font-family: 'Roboto Slab', serif;
-	font-weight: bold;
+	font-weight: normal;
   margin-top: 1.5em;
 }
 
 /* the only h1 and ol are pulled into page header. we need to
 hide them in main text and style them when in header element */
-h1, ol {
+/*h1, ol {
 	display: none;
-}
-header {
+}*/
+#pageHeader {
+	display: block;
 	text-align: center;
 }
 header h1 {
@@ -71,6 +72,9 @@ header ol {
 	list-style-type: none;
 }
 
+footer {
+	text-align: center;
+}
 
 h2 {
   text-transform: capitalize;
