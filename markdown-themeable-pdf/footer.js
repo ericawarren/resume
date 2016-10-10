@@ -1,6 +1,6 @@
 module.exports = function (info) {
   return {
-    height: '1in',
+    height: '0.75in',
     contents: 'Page {{page}} of {{pages}}'
   };
 };

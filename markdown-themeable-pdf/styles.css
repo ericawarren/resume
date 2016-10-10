@@ -10,88 +10,144 @@
 	src:
     local('Roboto');
 }
+/*Bug in PhantomJS and/or Webkit hard codes 96px/in (which is correct per CSS spec) but OSX renders 72px/inch so 72px = 54pt = 1in, ugh. Trying to mees with zoom level but it's confusing, so we'll use just px instead of pts and grimace, maybe change to using local Prince install in future anyway.*/
+/*html {
+		zoom: 75%;
+}*/
 
-/*
+/* ------- RESETS ------- */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, header, footer, h1, h2, h3, p, ul, ol, li, div, #pageHeader, #pageFooter {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	border: none;
+	color: black;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+/* ------- base ------- */
+:root {
+	--main-font-size: 11px;
 }
-*/
 
-/* base */
-html, body {
+/*body applies to header and footer too*/
+body {
+	/*border-top: 1px solid cyan;
+	border-bottom: 1px solid blue;*/
+	padding: 0 54px;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+p {
+	margin-top: 9px;
+}
+p:first-child {
+	margin-top: 0;
+	line-height: 11px;
+}
+/*main content has id="pageContent" in markdown-themeable-pdf*/
+#pageContent {
   font-family: 'Roboto', sans-serif;
-  font-size: 8pt;
-  line-height: 125%;
+	/*border: 1px solid red;*/
 }
 
 /* headings */
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
   font-family: 'Roboto Slab', serif;
-	font-weight: normal;
-  margin-top: 1.5em;
+	font-weight: bold;
+	page-break-after: avoid;
 }
 
-/* the only h1 and ol are pulled into page header. we need to
-hide them in main text and style them when in header element */
-/*h1, ol {
-	display: none;
+h1 {
+	text-transform: uppercase;
+  font-size: 14px;
+	line-height: 18px;
+	margin-top: 9px;
+	text-align: center;
+}
+/*h1:first-child {
+	margin-top: 0;
 }*/
-#pageHeader {
-	display: block;
-	text-align: center;
-}
-header h1 {
-	display: block;
-	font-size: 20pt;
-}
-header ol {
-	display: inline;
-	list-style-type: none;
-}
 
-footer {
-	text-align: center;
+h2, h3 {
+  font-size: 12px;
+	line-height: 15px;
 }
-
 h2 {
-  text-transform: capitalize;
-  font-size: 16pt;
+	margin-top: 6px;
+}
+h2:first-child {
+	margin-top: 0;
 }
 
 h3 {
-  font-size: 14pt;
-  /*font-style: italic;*/
+	font-family: 'Roboto', sans-serif;
 }
 
-h4 {
-	font-size: 14pt;
-	font-style: italic;
+ul {
+	margin: 9px 18px;
 }
 
-/* First H1 */
-h2:first-child {
-  margin-top: 0;
+li {
+	margin-top: 3px;
 }
+li:first-child {
+	margin-top: 0;
+}
+/* ------- PAGE HEADER - refer to header.js for structure ------- */
+#pageHeader {
+	/*border: 2px solid green;*/
+	margin-top: 24px;
+}
+.flexContainer {
+  display: -webkit-flex;
+  -webkit-flex-flow: row nowrap;
+  -webkit-justify-content: space-between;
+  -webkit-align-items: center;
+}
+.flexItem {
+  -webkit-flex:auto;
+  line-height: 100%;
+	text-align: center;
+}
+.flexLeft {
+	font-family: 'Roboto Slab', serif;
+  -webkit-flex-grow: 2;
+	font-size: 36px;
+	/*vertical-align: top;*/
+  font-weight: bold;
+  /*text-align: center;*/
+	/*padding-right: 18px;*/
+}
+.flexRight {
+  -webkit-flex-grow: 1;
+	font-size: 10px;
+  /*text-align: left;*/
+}
+ul.flexItem {
+  list-style: none;
+	/*padding-left: 18px;*/
+  border-left: 3px solid gray;
+}
+li.contactItem {
+  padding-top: 3px;
+	/*text-align: left;*/
+}
+li.contactItem:first-of-type {
+  padding-top: 0px;
+}
+
+/*------- FOOTER: see footer.js for content -------*/
+#pageFooter {
+	text-align: center;
+	font-size: 10px;
+	color: gray;
+	border-top: 1px solid gray;
+	margin: 9px 0 18px 0;
+	padding-top: 9px;
+}
+
+/** {
+	font-size: var(--main-font-size);
+	line-height: calc(var(--main-font-size) * 1.44)
+}*/

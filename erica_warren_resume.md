@@ -34,7 +34,7 @@ GPA 3.5/4.0 • graduated _cum laude_ • focus on media studies
 Build and support custom digital tools and processes for our production workflow.
 * Lead developer for our suite of advanced custom Word macros, which have become an integral part of our digital workflow and are used both internally and by third-party vendors.
 * Created an additional suite of developer tools to make it easier to use Git for VBA projects.
-* First-line user support and troubleshooting for the tools and processes we"ve built-in house, such as our Bookmaker tool (https://github.com/macmillanpublishers/bookmaker).
+* First-line user support and troubleshooting for the tools and processes we've built-in house, such as our Bookmaker tool (https://github.com/macmillanpublishers/bookmaker).
 * Write and maintain extensive documentation, including screencasts, for users with a wide-variety of skill levels (some of which is available at https://confluence.macmillan.com/display/PBL/Manuscript+Styling+with+MS+Word).
 * Develop training materials (syllabi, demonstrations, practice exercises, etc.) and lead trainings for staff, both for tools developed in-house and also third-party solutions (such as Confluence and Dropbox).
 * Provide daily email and phone support for all of our tools for over 125 primary users, and ad-hoc support for the whole company.
